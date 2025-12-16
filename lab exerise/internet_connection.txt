@@ -1,0 +1,83 @@
+Research different types of internet connections (e.g., broadband, fiber, satellite)
+and list their pros and cons.
+
+1. Broadband (DSL & Cable)
+
+(a) DSL (Digital Subscriber Line)
+Uses: Telephone lines
+
+Pros:
+Widely available (even in smaller towns)
+Affordable
+You can use phone and internet at the same time
+
+Cons:
+Slower than cable and fiber
+Speed drops the farther you are from the exchange
+Not ideal for heavy streaming or gaming
+
+(b) Cable Internet
+
+Uses: Coaxial cable (same as cable TV)
+
+Pros:
+Faster than DSL
+Good for streaming, gaming, and video calls
+Widely available in cities
+
+Cons:
+Speed may slow down during peak hours (shared bandwidth)
+Slightly more expensive than DSL
+
+2. Fiber Optic Internet
+
+Uses: Fiber-optic cables (light signals)
+
+Pros:
+Extremely fast speeds (up to Gbps)
+Very reliable and stable
+Best for online gaming, 4K streaming, cloud work
+
+Cons:
+Limited availability (mostly urban areas)
+Expensive installation in some regions
+
+3. Satellite Internet
+
+Uses: Satellites in space
+
+Pros:
+Available in remote and rural areas
+No need for cable or phone lines
+
+Cons:
+High latency (delay) — bad for gaming and video calls
+Expensive
+Affected by weather (rain, storms)
+
+4. Mobile / Cellular Internet (4G / 5G)
+
+Uses: Mobile network towers
+
+Pros:
+Portable and convenient
+Easy setup (hotspot or dongle)
+5G offers very high speeds
+
+Cons:
+Data limits can be costly
+Speed depends on signal strength
+Not as stable as fiber or cable
+
+5. Dial-Up (Older Technology)
+
+Uses: Telephone line
+
+Pros:
+Very low cost
+Works where no other internet is available
+
+Cons:
+Extremely slow
+Cannot use phone and internet simultaneously
+Mostly outdated

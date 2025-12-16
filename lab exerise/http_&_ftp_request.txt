@@ -1,0 +1,16 @@
+Simulate HTTP and FTP requests using command line tools (e.g., curl).
+
+HTTP Requests:
+
+HTTP GET Request - curl http://example.com
+View HTTP Headers - curl -I http://example.com
+HTTP POST Request - curl -X POST -d "username=test&password=123" http://example.com/login
+Save Response to File - curl -o page.html http://example.com
+
+FTP Requests:
+
+Connect to FTP Server - curl ftp://ftp.example.com/ --user username:password
+Download File - curl -O ftp://ftp.example.com/sample.txt --user username:password
+Upload File - curl -T localfile.txt ftp://ftp.example.com/ --user username:password
+
+
