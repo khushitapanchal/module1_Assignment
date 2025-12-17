@@ -1,0 +1,18 @@
+Write a requirement specification for a simple library management system
+
+functional requirement:
+
+1. User Authentication
+2. Book Management
+3. Member Management
+4. Book Issue Management
+5. Book Return Management
+6. Reports
+
+non-functional requirement:
+
+1. Usability
+2. Performance
+3. Security
+4. Reliability
+5. Maintainability

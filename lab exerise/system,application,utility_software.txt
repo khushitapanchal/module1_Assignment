@@ -1,0 +1,29 @@
+Create a list of software you use regularly and classify them into the following
+categories: system, application, and utility software.
+
+1. System Software
+
+(Controls hardware and provides a platform for other software)
+Windows 10 / Windows 11 – Operating system for managing the computer
+Linux (Ubuntu) – Operating system used for programming and learning
+Device Drivers – Enable hardware like printers, keyboards, and graphics cards to work properly
+
+2. Application Software
+
+(Used by users to perform specific tasks)
+Google Chrome – Web browsing
+Microsoft Word – Document creation
+Microsoft PowerPoint – Presentations
+Microsoft Excel – Spreadsheets and calculations
+Visual Studio Code – Coding and programming
+Zoom / Google Meet – Online meetings and classes
+WhatsApp Desktop – Communication
+
+3. Utility Software
+
+(Helps maintain, protect, and optimize the system)
+Windows Defender – Antivirus and security
+Disk Cleanup – Removes unnecessary files
+WinRAR / 7-Zip – File compression and extraction
+CCleaner – System cleanup and optimization
+Backup & Restore Tool – Data backup

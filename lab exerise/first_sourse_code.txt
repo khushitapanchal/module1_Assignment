@@ -1,0 +1,7 @@
+Write and upload your first source code file to Github.
+
+1. Create a GitHub Account and Repository
+2. Open Terminal/Command Prompt
+3. Initialize Git and Add Files
+4. Connect Local Repo to GitHub
+5. Push the Code to GitHub

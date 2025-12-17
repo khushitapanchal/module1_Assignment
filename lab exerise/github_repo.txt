@@ -1,0 +1,21 @@
+Create a Github repository and document how to commit and push code changes.
+
+Create a GitHub Repository
+
+1. Sign in to GitHub
+2. click the + sign, then select New repository
+3. Enter a repository name
+4. Choose the repository visibility (Public or Private)
+5. Click the Create repository button.
+
+Commit and Push Code Changes (Using Git CLI)
+
+1. Open your terminal or command prompt
+2. Navigate to your local project directory
+    initialize it: git init
+3. To add all files in the current directory: git add .
+   To add a specific file: git add <filename>
+4. git commit -m "Your descriptive commit message"
+5. git remote add origin <PASTED_REPOSITORY_URL>
+6. git push -u origin main
+ 

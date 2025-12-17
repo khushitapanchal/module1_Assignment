@@ -1,0 +1,13 @@
+Identify and classify 5 applications you use daily as either system software or application software.
+
+Here are 5 daily applications classified:
+
+1.Google Chrome / Edge / Firefox: Application Software (Web Browser) – Used for accessing the internet, websites, and web apps.
+
+2.Microsoft Windows / macOS / Android: System Software (Operating System) – Manages hardware, runs other programs, and provides the user interface.
+
+3.Microsoft Word / Google Docs: Application Software (Word Processor) – For creating and editing documents.
+
+4.Spotify / Apple Music: Application Software (Media Player) – For streaming music and audio content.
+
+5.Printer Driver (e.g., HP Smart): System Software (Device Driver) – Software that allows the operating system to communicate with and control your printer hardware. 

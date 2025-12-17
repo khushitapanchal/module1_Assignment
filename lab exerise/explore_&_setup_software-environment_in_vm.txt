@@ -1,0 +1,24 @@
+Explore different types of software environments (development, testing, production).
+Set up a basic environment in a virtual machine.
+
+Software development typically uses three key environments: Development, Testing (which often includes staging/QA), and Production. These separate environments mitigate risk and ensure software quality before it reaches end-users. 
+
+Types of Software Environments
+
+Development (Dev):Where developers write, modify, and initially test code.	
+Unstable, frequent changes, uses dummy/local data, high flexibility for experimentation, minimal user impact.
+
+Testing (QA/Staging):A quality assurance area to find and fix bugs and perform comprehensive testing. The staging environment is a near-perfect replica of production for final validation.	
+Closely resembles production in architecture/configuration, uses realistic (often anonymized) data, controlled access (internal teams/stakeholders), focuses on stability and performance testing.
+
+Production (Prod/Live):	The live environment where the final, functional software is deployed and used by end-users.	
+Highly stable, secure, and available; handles real-world traffic and live data; performance is critical; any issues directly impact users.
+
+Setting Up a Basic Environment in a Virtual Machine (VM):
+
+1. Prepare Your Computer for Virtualization
+2. Install a Hypervisor (Virtualization Tool)
+3. Obtain an Operating System Image
+4. Create and Configure the VM:
+5. Install Necessary Software and Tools
+6. Test Your Setup 

@@ -1,0 +1,19 @@
+Identify and explain three common application security vulnerabilities. Suggest
+possible solutions.
+
+Three common app security vulnerabilities are Injection Attacks (like SQLi/XSS), Broken Access Control, and Security Misconfigurations, which attackers exploit via malicious input, unauthorized data access, or default/weak settings to steal data, disrupt services, or take control, mitigated by input validation, strict permissions, and secure defaults/patching, respectively, notes. 
+
+1. Injection Attacks (e.g., SQL Injection, Cross-Site Scripting - XSS):
+
+Explanation: An attacker sends malicious code (like SQL commands or JavaScript) through user input fields (forms, URLs) that the application trusts and executes as legitimate commands, compromising data or the system.
+Solutions: Implement strict input validation and sanitization, use parameterized queries (prepared statements) for databases, and encode output to prevent script execution. 
+
+2. Broken Access Control:
+
+Explanation: Weak restrictions allowing users to access or modify data/functionality they shouldn't, such as viewing another user's account or accessing admin panels without authorization.
+Solutions: Enforce the principle of least privilege (PoLP), implement robust role-based access controls (RBAC), and verify user permissions on every request. 
+
+3. Security Misconfigurations:
+
+Explanation: Insecure default settings, open cloud storage, unnecessary features enabled, or missing security patches on servers/frameworks, creating easy entry points.
+Solutions: Harden configurations by removing defaults, disabling unused services, regularly patching systems, and automating security scans. 

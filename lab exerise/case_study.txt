@@ -1,0 +1,44 @@
+Create a case study on the functionality of the presentation, business logic, and data
+access layers of a given software system.
+
+Here is a case study on the functionality of the presentation, business logic, and data access layers, using an online e-commerce system as the software example. This 3-tier architecture ensures modularity, security, and scalability by separating concerns into distinct, manageable layers.
+
+Case Study: "ShopEase" Online E-commerce System
+
+ShopEase is a web application that allows users to browse products, manage a shopping cart, process payments, and track orders. Its design utilizes a classic layered architecture to promote efficient development and maintenance.
+
+1. Presentation Layer (UI Tier):
+
+The presentation layer is the user interface and the entry point for end-users or other systems. It is responsible for displaying information and capturing user input.
+
+Functionality:
+User Interface: Renders product catalogs, search results, product details, and the checkout interface using web technologies (HTML, CSS, JavaScript frameworks like React or Angular).
+User Interaction: Handles user input events, such as button clicks ("Add to Cart", "Checkout"), form submissions, and search queries.
+
+Communication: Translates user actions into requests for the business logic layer and formats the response data into a user-friendly visual display.
+
+Example in ShopEase: When a user searches for "laptops", they type the query into a search bar. The presentation layer captures this input and sends a request to the business logic layer to find matching products. It then displays the returned list of laptops in a visually appealing grid format.
+
+2. Business Logic Layer (Application Tier):
+
+The business logic layer (BLL) is the core "nerve center" of the application, enforcing business rules and processing user requests. It acts as a mediator between the presentation and data layers, ensuring that data is processed correctly according to the system's rules.
+
+Functionality:
+Business Rules Enforcement: Implements core rules, such as calculating discounts, checking inventory levels before an order is placed, and validating payment information.
+
+Process Coordination: Manages complex workflows like order processing, coordinating multiple steps (e.g., creating an order record, updating inventory, initiating payment).
+Data Validation: Ensures data integrity by validating data received from the presentation layer before it is passed to the data access layer.
+
+Example in ShopEase: When a user clicks "Checkout," the BLL takes the shopping cart items, applies any eligible promotions, verifies that all items are in stock, processes the payment with a third-party service, and then finalizes the order. If any rule is violated (e.g., insufficient stock), the BLL sends an appropriate error message back to the presentation layer.
+
+3. Data Access Layer (Data Tier):
+
+The data access layer (DAL) is responsible for all interactions with the database or other data storage mechanisms. It abstracts the business logic layer from the specifics of the data source (e.g., whether it's a SQL, NoSQL, or file system).
+
+Functionality:
+Data Persistence: Manages Create, Read, Update, and Delete (CRUD) operations for data storage and retrieval.
+Abstraction: Hides the complexities of database manipulation (like SQL queries or ORM specifics) from the BLL, allowing the BLL to focus solely on the business rules.
+
+Security: Provides a secure interface to the database, preventing direct, unauthorized access from the presentation layer.
+
+Example in ShopEase: The BLL requests to retrieve "laptops" from the inventory. The DAL executes the necessary database queries (e.g., SELECT * FROM Products WHERE Category = 'Laptops') and returns the raw data results to the BLL. When a purchase is completed, the DAL executes the commands to save the new order details and update the product inventory counts in the database.

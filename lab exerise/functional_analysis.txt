@@ -1,0 +1,35 @@
+Perform a functional analysis for an online shopping system
+
+A functional analysis for an online shopping system identifies core user actions (Use Cases) like Registration/Login, Product Search/Browse, Cart Management, Checkout (payment/shipping), and Order Tracking, detailing system responses for each, from adding items to generating invoices, ensuring features meet user needs for easy browsing, secure transactions, and order visibility, often using diagrams like Use Case or Activity Diagrams. 
+
+Core Functional Areas & Use Cases
+
+1. User Management:
+User Registration
+Login/Logout
+Profile Management
+
+2. Product Discovery:
+Search Function
+Product Browsing
+Product Details
+
+3. Shopping Cart & Wishlist:
+Add/Remove/Update Items
+Save for Later
+
+4. Checkout Process:
+Shipping Address
+Payment Gateway
+Order Summary
+
+5. Order Management:
+Order Placement
+Order Confirmation
+Order History
+Order Tracking
+
+6. Admin Functions (Backend):
+Product Management
+User Management
+Order Fulfillment
