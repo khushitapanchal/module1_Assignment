@@ -1,0 +1,43 @@
+Develop test cases for a simple calculator program.
+
+Functionality Test Cases (Positive Testing)
+
+These cases verify that the calculator performs intended operations correctly with valid inputs.
+
+Addition:
+Add two positive integers (e.g., 5 + 3 = 8).
+Add two negative integers (e.g., -5 + -3 = -8).
+Add one positive and one negative integer (e.g., 5 + (-3) = 2).
+Add large numbers within the display limit.
+Add decimal numbers (e.g., 2.5 + 1.2 = 3.7).
+Add zero to a number (e.g., 10 + 0 = 10).
+
+Subtraction:
+Subtract a smaller positive integer from a larger one (e.g., 10 - 4 = 6).
+Subtract a larger positive integer from a smaller one (e.g., 4 - 10 = -6).
+Subtract a negative number from a positive number (e.g., 5 - (-3) = 8).
+Subtract zero from a number (e.g., 10 - 0 = 10).
+Subtract a number from zero (e.g., 0 - 10 = -10).
+
+Multiplication:
+Multiply two positive integers (e.g., 6 * 7 = 42).
+Multiply a positive and a negative integer (e.g., 6 * -7 = -42).
+Multiply by zero (e.g., 5 * 0 = 0).
+
+Division:
+Divide a positive integer by a smaller positive integer (e.g., 10 / 2 = 5).
+Divide a number by a larger number (e.g., 2 / 10 = 0.2).
+Divide zero by a number (e.g., 0 / 5 = 0).
+
+Chained Operations:
+Perform multiple operations in sequence (e.g., 5 + 3 * 2). Ensure the expected order of operations (BODMAS/PEMDAS) is followed if applicable to the program.
+
+Edge Cases and Error Handling (Negative Testing)
+
+These cases check how the program handles unusual or invalid inputs.
+
+Division by Zero: Attempt to divide any number by zero. The expected result should be an error message (e.g., "Error", "Cannot divide by zero", or "Infinity") rather than a crash.
+
+Input Limits: Enter numbers exceeding the maximum displayable digits to check for overflow handling or error messages.
+
+Invalid Input: Attempt to input non-numeric characters (letters, symbols, etc.) where only numbers are expected. The program should prevent entry or display an error.
